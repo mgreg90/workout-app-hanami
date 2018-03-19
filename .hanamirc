@@ -1,0 +1,3 @@
+project=workout_app_hanami
+test=rspec
+template=erb
