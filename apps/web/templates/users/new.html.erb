@@ -1,0 +1,15 @@
+<h1>Users#New</h1>
+
+<%=
+  form_for :user, routes.users_path do
+    div do
+      label "Email"
+      text_field :email
+    end
+    div do
+      label "Password"
+      password_field :password
+    end
+    submit 'Sign Up'
+  end
+%>
